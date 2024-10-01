@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".StartActivity"
+    android:id="@+id/activityStar"
+    android:background="@mipmap/bgwhite">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_marginTop="110dp"
+        android:src="@mipmap/mttachnendep" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thư viện Miền Tây"
+        android:textColor="#0B6E4F"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Sách là phép màu độc nhất và"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#0B6E4F"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="diệu kỳ trong đời thực"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#0B6E4F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="- Stephen King -"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0B6E4F"/>
+
+
+
+</LinearLayout>
